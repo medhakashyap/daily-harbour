@@ -1,0 +1,218 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block body %}
+<!-- using fluid, the spaces are adjusted automatically -->
+<!-- my-4 is margin on y-axis -->
+<!-- px-0 is padding on x-axis -->
+<div class="container my-3">
+    <h1 class="my-4 text-center"> Select from our range of products </h1>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+            <div class="card shadow-sm">
+                <img src="https://source.unsplash.com/1400x600/?headphones" class="bd-placeholder-img card-img-top"
+                    width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img"
+                    aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <div class="card-body">
+                    <p class="card-text">Headphones</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary unitsBtn">units</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary plusBtn">+</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary minusBtn">-</button>
+                        </div>
+                        <small class="text-body-secondary price">₹ 1000</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card shadow-sm">
+                <img src="https://source.unsplash.com/1400x600/?charger" class="bd-placeholder-img card-img-top"
+                    width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img"
+                    aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <div class="card-body">
+                    <p class="card-text">Charger</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary unitsBtn">units</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary plusBtn">+</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary minusBtn">-</button>
+                        </div>
+                        <small class="text-body-secondary price">₹ 1000</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card shadow-sm">
+                <img src="https://source.unsplash.com/1400x600/?potatoes" class="bd-placeholder-img card-img-top"
+                    width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img"
+                    aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <div class="card-body">
+                    <p class="card-text">Potatoes</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary unitsBtn">units</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary plusBtn">+</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary minusBtn">-</button>
+                        </div>
+                        <small class="text-body-secondary price">₹ 1000</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card shadow-sm">
+                <img src="https://source.unsplash.com/1400x600/?soap" class="bd-placeholder-img card-img-top"
+                    width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img"
+                    aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <div class="card-body">
+                    <p class="card-text">Soap</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary unitsBtn">units</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary plusBtn">+</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary minusBtn">-</button>
+                        </div>
+                        <small class="text-body-secondary price">₹ 1000</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card shadow-sm">
+                <img src="https://source.unsplash.com/1400x600/?spinach" class="bd-placeholder-img card-img-top"
+                    width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img"
+                    aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <div class="card-body">
+                    <p class="card-text">Spinach</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary unitsBtn">units</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary plusBtn">+</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary minusBtn">-</button>
+                        </div>
+                        <small class="text-body-secondary price">₹ 1000</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card shadow-sm">
+                <img src="https://source.unsplash.com/1400x600/?medicine" class="bd-placeholder-img card-img-top"
+                    width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img"
+                    aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <div class="card-body">
+                    <p class="card-text">Medical Kit</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary unitsBtn">units</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary plusBtn">+</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary minusBtn">-</button>
+                        </div>
+                        <small class="text-body-secondary price">₹ 1000</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card shadow-sm">
+                <img src="https://source.unsplash.com/1400x600/?watch" class="bd-placeholder-img card-img-top"
+                    width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img"
+                    aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <div class="card-body">
+                    <p class="card-text">Watch</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary unitsBtn">units</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary plusBtn">+</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary minusBtn">-</button>
+                        </div>
+                        <small class="text-body-secondary price">₹ 1000</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card shadow-sm">
+                <img src="https://source.unsplash.com/1400x600/?perfume" class="bd-placeholder-img card-img-top"
+                    width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img"
+                    aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <div class="card-body">
+                    <p class="card-text">Chanel</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary unitsBtn">units</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary plusBtn">+</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary minusBtn">-</button>
+                        </div>
+                        <small class="text-body-secondary price">₹ 1000</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card shadow-sm">
+                <img src="https://source.unsplash.com/1400x600/?toothbrush" class="bd-placeholder-img card-img-top"
+                    width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img"
+                    aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <div class="card-body">
+                    <p class="card-text">Toothbrush</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary unitsBtn">units</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary plusBtn">+</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary minusBtn">-</button>
+                        </div>
+                        <small class="text-body-secondary price">₹ 1000</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Get all product elements
+    const productCards = document.querySelectorAll('.card');
+
+    // Loop through each product card
+    productCards.forEach(card => {
+        const unitsBtn = card.querySelector('.unitsBtn');
+        const plusBtn = card.querySelector('.plusBtn');
+        const minusBtn = card.querySelector('.minusBtn');
+        const priceElement = card.querySelector('.price');
+
+        let quantity = 0; // Initial quantity
+
+        // Function to update quantity and display
+        function updateQuantity() {
+            unitsBtn.textContent = `Units: ${quantity}`;
+        }
+
+        // Event listener for plus button
+        plusBtn.addEventListener('click', () => {
+            quantity++;
+            updateQuantity();
+        });
+
+        // Event listener for minus button
+        minusBtn.addEventListener('click', () => {
+            if (quantity > 0) {
+                quantity--;
+                updateQuantity();
+            }
+        });
+
+        // Initial call to update quantity display
+        updateQuantity();
+    });
+</script>
+
+{% endblock %}

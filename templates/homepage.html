@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Homepage
+{% endblock %}
+
+{% block body %}
+<div class="container-fluid p-0">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="height: 647px;">
+                <img src="https://source.unsplash.com/1200x647/?order" class="d-block w-100" style="object-fit: cover; width: 100%; height: 100%;" alt="...">
+                <div class="carousel-caption d-none d-md-block bg-light p-4 rounded">
+                    <h5 style="color: black;">Welcome to Daily Harbour, your one-stop destination for all your daily needs! </h5>
+                    <p style="color: black;">Explore our wide range of fresh fruits, vegetables, essential electronics, all delivered right to your doorstep</p>
+                </div>
+            </div>
+            <div class="carousel-item" style="height: 647px;">
+                <img src="https://source.unsplash.com/1200x647/?vegetables" class="d-block w-100" style="object-fit: cover; width: 100%; height: 100%;" alt="...">
+                <div class="carousel-caption d-none d-md-block bg-light p-4 rounded">
+                    <h5 style="color: black;">Discover the freshest fruits and vegetables sourced directly from local farms, ensuring quality and taste with every bite. From the latest electronics to everyday medical essentials, we have everything you need to make life easier and healthier.</h5>
+                </div>
+            </div>
+            <div class="carousel-item" style="height: 647px;">
+                <img src="https://source.unsplash.com/1200x647/?quality" class="d-block w-100" style="object-fit: cover; width: 100%; height: 100%;" alt="...">
+                <div class="carousel-caption d-none d-md-block bg-light p-4 rounded">
+                    <h5 style="color: black;">At Daily Harbour, we prioritize quality and freshness above all else. Our team meticulously selects each item to guarantee the highest standards, so you can shop with confidence knowing you're getting the best products every time.</h5>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+{% endblock %}
